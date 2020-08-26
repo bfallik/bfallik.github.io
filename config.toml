@@ -25,7 +25,7 @@ publishDir = "bfallik.github.io"
   email = "bfallik@gmail.com"
   description = "Landing Page"
   bio = """software developer  
-manager  
+engineering leader  
 center of my dog's universe"""
   avatar = "https://s.gravatar.com/avatar/52e608cf186f5df1b23575a10caec9ff?s=80"
   favicon = "img/favicon.ico"
