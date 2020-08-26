@@ -17,6 +17,13 @@ You'll need [Hugo](https://gohugo.io) and git.
 $ dnf install hugo git
 ```
 
+Don't forget to update the submodule containing the theme:
+
+```
+$ git submodule init
+$ git submodule update -- public-www/www.bfallik.net/themes/vncnt-hugo
+```
+
 ## Testing
 
 You can use `hugo server` to preview your changes on a local server 
