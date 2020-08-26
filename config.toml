@@ -16,6 +16,9 @@ theme = "vncnt-hugo"
 title = "Brian Fallik · Landing Page"
 publishDir = "bfallik.github.io"
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+
 [blackfriday]
   extensions = ["hardLineBreak"]
 
