@@ -17,11 +17,11 @@ You'll need [Hugo](https://gohugo.io) and git.
 $ dnf install hugo git
 ```
 
-Don't forget to update the submodule containing the theme:
+Don't forget to update the submodules:
 
 ```
 $ git submodule init
-$ git submodule update -- public-www/www.bfallik.net/themes/vncnt-hugo
+$ git submodule update --recursive --remote
 ```
 
 ## Testing
