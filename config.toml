@@ -27,7 +27,7 @@ publishDir = "bfallik.github.io"
   bio = """software developer  
 engineering leader  
 center of my dog's universe"""
-  avatar = "https://s.gravatar.com/avatar/52e608cf186f5df1b23575a10caec9ff?s=80"
+  avatar = "https://seccdn.libravatar.org/avatar/52e608cf186f5df1b23575a10caec9ff?s=400"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
 
