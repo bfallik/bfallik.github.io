@@ -101,10 +101,10 @@ pygmentsCodeFencesGuessSyntax = true
 
         [languages.en.menu]
 
-          #  [[languages.en.menu.main]]
-          #  name = "About"
-          #  weight = 1
-          #  url = "about/"
+          [[languages.en.menu.main]]
+            name = "Bio"
+            weight = 1
+            url = "bio/"
 
           #  [[languages.en.menu.main]]
           #  name = "Blog"
