@@ -1,12 +1,12 @@
 # static website
 
-Configuration and scripts to manage my personal static website, 
+Configuration and scripts to manage my personal static website,
 [bfallik.net](https://bfallik.net).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on 
-your local machine for development and testing purposes. See deployment 
+These instructions will get you a copy of the project up and running on
+your local machine for development and testing purposes. See deployment
 for notes on how to deploy the project on a live system.
 
 ### Prerequisites
@@ -26,7 +26,7 @@ $ git submodule update --recursive --remote
 
 ## Testing
 
-You can use `hugo server` to preview your changes on a local server 
+You can use `hugo server` to preview your changes on a local server
 before deploying them publicly.
 
 ```
