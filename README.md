@@ -55,16 +55,14 @@ Press Ctrl+C to stop
 
 ## Deployment
 
-The website is hosted on [Github Pages](https://pages.github.com/) in the repo https://github.com/bfallik/bfallik.github.io.
+The website is hosted on [Github Pages](https://pages.github.com/) in the repo https://github.com/bfallik/bfallik.github.io. Pushing changes to the master branch will trigger GitHub Actions to build and deploy the site.
 
-To generate new static HTML site, first generate the static files to the gh-pages branch:
+To generate new static HTML site manually, first generate the static files on the gh-pages branch:
 
 ```
 $ rm -rf public; \
   git clone -b gh-pages git@github.com:bfallik/bfallik.github.io public; \
-  hugo --gc --minify --cleanDestinationDir; \
-  cd public; \
-  git restore CNAME
+  hugo --minify --cleanDestinationDir
 
 Cloning into 'public'...
 remote: Enumerating objects: 311, done.
@@ -88,6 +86,10 @@ hugo v0.101.0+extended darwin/amd64 BuildDate=unknown
   Cleaned          |  0
 
 Total in 125 ms
+
+$ cd public
+
+$ echo www.bfallik.net >CNAME
 ```
 
 To deploy, push the latest artifacts to the gh-pages branch. (This assumes you're still inside `public/`)
