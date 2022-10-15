@@ -2,7 +2,7 @@ baseURL = "https://www.bfallik.net/"
 title = "Brian Fallik · Home"
 
 theme = "hugo-coder"
-publishDir = "bfallik.github.io"
+publishDir = "public"
 
 languageCode = "en"
 defaultContentLanguage = "en"
