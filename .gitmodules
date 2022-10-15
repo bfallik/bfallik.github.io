@@ -1,6 +1,3 @@
-[submodule "bfallik.github.io"]
-	path = bfallik.github.io
-	url = git@github.com:bfallik/bfallik.github.io.git
 [submodule "themes/hugo-coder"]
 	path = themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
