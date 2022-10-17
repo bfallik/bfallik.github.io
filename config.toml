@@ -86,13 +86,11 @@ pygmentsCodeFencesGuessSyntax = true
     icon = "fa fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/brian-fallik/"
-# [[params.social]]
-#    name = "RSS"
-#    icon = "fa fa-rss"
-#    weight = 6
-#    url = "https://myhugosite.com/index.xml"
-#    rel = "alternate"
-#    type = "application/rss+xml"
+[[params.social]]
+    name = "Stack Overflow"
+    icon = "fa  fa-stack-overflow"
+    weight = 4
+    url = "https://meta.stackoverflow.com/users/5348625/bfallik"
 
 
 [languages]
