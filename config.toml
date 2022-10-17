@@ -19,7 +19,7 @@ pygmentsCodeFencesGuessSyntax = true
     author = "Brian Fallik"
     description = "Brian Fallik's personal website"
     keywords = "blog,developer,personal"
-    info = "engineering leader · entrepreneur"
+    info = "engineering leader · advisor · entrepreneur"
     avatarURL = "https://seccdn.libravatar.org/avatar/52e608cf186f5df1b23575a10caec9ff?s=400"
     # footerContent = "Enter a text here."
 
